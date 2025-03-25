@@ -1,7 +1,7 @@
 {
+    "private": true,
     "name": "@types/swc",
     "version": "1.2.0",
-    "private": true,
     "main": "",
     "types": "./global.d.ts",
     "customElements": "custom-elements.json"

@@ -83,6 +83,77 @@
             "rules": {
                 "no-console": ["off"]
             }
+        },
+        {
+            "files": ["package.json"],
+            "parser": "jsonc-eslint-parser",
+            "plugins": [],
+            "extends": ["plugin:jsonc/recommended-with-jsonc"],
+            "rules": {
+                "notice/notice": "off",
+                "jsonc/sort-keys": [
+                    "warn",
+                    {
+                        "pathPattern": "^$",
+                        "order": [
+                            "$schema",
+                            "private",
+                            "publishConfig",
+                            "name",
+                            "version",
+                            "description",
+                            "license",
+                            "author",
+                            "maintainers",
+                            "contributors",
+                            "homepage",
+                            "repository",
+                            "bugs",
+                            "type",
+                            "exports",
+                            "main",
+                            "module",
+                            "browser",
+                            "man",
+                            "preferGlobal",
+                            "bin",
+                            "files",
+                            "directories",
+                            "scripts",
+                            "config",
+                            "sideEffects",
+                            "types",
+                            "typings",
+                            "workspaces",
+                            "resolutions",
+                            "dependencies",
+                            "bundleDependencies",
+                            "bundledDependencies",
+                            "peerDependencies",
+                            "peerDependenciesMeta",
+                            "optionalDependencies",
+                            "devDependencies",
+                            "keywords",
+                            "engines",
+                            "engineStrict",
+                            "os",
+                            "cpu"
+                        ]
+                    },
+                    {
+                        "pathPattern": "^repository$",
+                        "order": ["type", "url", "directory"]
+                    },
+                    {
+                        "pathPattern": "^spectrum$",
+                        "order": { "type": "asc" }
+                    },
+                    {
+                        "pathPattern": ".*",
+                        "order": { "type": "asc" }
+                    }
+                ]
+            }
         }
     ]
 }

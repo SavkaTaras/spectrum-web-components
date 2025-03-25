@@ -1,31 +1,24 @@
 {
+    "private": true,
     "name": "stylelint-header",
     "version": "1.2.0",
-    "private": true,
     "license": "Apache-2.0",
     "author": "Adobe",
     "main": "index.js",
+    "files": [
+        "index.js",
+        "!test/*"
+    ],
     "scripts": {
         "coverage": "jest --coverage",
         "test": "jest",
         "watch": "jest --watch"
     },
-    "files": [
-        "index.js",
-        "!test/*"
-    ],
-    "keywords": [
-        "stylelint",
-        "header",
-        "stylelint-plugin",
-        "css",
-        "linter"
-    ],
-    "peerDependencies": {
-        "stylelint": "^13.0.0 || ^14.0.0 || ^16.0.0"
-    },
     "dependencies": {
         "string-similarity": "^4.0.4"
+    },
+    "peerDependencies": {
+        "stylelint": "^13.0.0 || ^14.0.0 || ^16.0.0"
     },
     "devDependencies": {
         "jest": "^27.0.1",
@@ -33,6 +26,13 @@
         "lodash": "^4.17.21",
         "stylelint": "^16.0.0"
     },
+    "keywords": [
+        "stylelint",
+        "header",
+        "stylelint-plugin",
+        "css",
+        "linter"
+    ],
     "jest": {
         "preset": "jest-preset-stylelint"
     }
