@@ -6,7 +6,7 @@
     "version": "1.3.0",
     "description": "Web component implementation of a Spectrum design Truncated",
     "license": "Apache-2.0",
-    "author": "",
+    "author": "Adobe",
     "homepage": "https://adobe.github.io/spectrum-web-components/components/truncated",
     "repository": {
         "type": "git",

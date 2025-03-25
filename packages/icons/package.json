@@ -6,7 +6,7 @@
     "version": "1.3.0",
     "description": "",
     "license": "Apache-2.0",
-    "author": "",
+    "author": "Adobe",
     "homepage": "https://opensource.adobe.com/spectrum-web-components/components/icons",
     "repository": {
         "type": "git",
@@ -75,10 +75,16 @@
         "@spectrum-web-components/iconset": "1.3.0"
     },
     "keywords": [
-        "spectrum css",
+        "design-system",
+        "spectrum",
+        "adobe",
+        "adobe-spectrum",
         "web components",
+        "web-components",
         "lit-element",
-        "lit-html"
+        "lit-html",
+        "component",
+        "css"
     ],
     "customElements": "custom-elements.json",
     "deprecationNotice": "@spectrum-web-components/icons is deprecated and will be removed in an upcoming release."

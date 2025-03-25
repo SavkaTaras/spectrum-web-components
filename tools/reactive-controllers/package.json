@@ -6,7 +6,7 @@
     "version": "1.3.0",
     "description": "ReactiveControllers for powering common UI patterns",
     "license": "Apache-2.0",
-    "author": "",
+    "author": "Adobe",
     "homepage": "https://opensource.adobe.com/spectrum-web-components/tools/reactive-controllers",
     "repository": {
         "type": "git",

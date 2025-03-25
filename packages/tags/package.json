@@ -6,7 +6,7 @@
     "version": "1.3.0",
     "description": "Web component implementation of a Spectrum design Tags",
     "license": "Apache-2.0",
-    "author": "",
+    "author": "Adobe",
     "homepage": "https://opensource.adobe.com/spectrum-web-components/components/tags",
     "repository": {
         "type": "git",
@@ -77,10 +77,16 @@
         "@spectrum-css/taggroup": "6.0.0-s2-foundations.15"
     },
     "keywords": [
-        "spectrum css",
+        "design-system",
+        "spectrum",
+        "adobe",
+        "adobe-spectrum",
         "web components",
+        "web-components",
         "lit-element",
-        "lit-html"
+        "lit-html",
+        "component",
+        "css"
     ],
     "customElements": "custom-elements.json"
 }
